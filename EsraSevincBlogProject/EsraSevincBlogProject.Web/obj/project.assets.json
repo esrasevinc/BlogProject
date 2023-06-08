@@ -1171,6 +1171,36 @@
           "bin/placeholder/EsraSevincBlog.Core.dll": {}
         }
       },
+      "EsraSevincBlogProject.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EsraSevincBlogProject.DataAccess": "1.0.0",
+          "EsraSevincBlogProject.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/EsraSevincBlogProject.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EsraSevincBlogProject.Business.dll": {}
+        }
+      },
+      "EsraSevincBlogProject.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EsraSevincBlog.Core": "1.0.0",
+          "EsraSevincBlogProject.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/EsraSevincBlogProject.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EsraSevincBlogProject.DataAccess.dll": {}
+        }
+      },
       "EsraSevincBlogProject.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3534,6 +3564,16 @@
       "path": "../EsraSevincBlog.Core/EsraSevincBlog.Core.csproj",
       "msbuildProject": "../EsraSevincBlog.Core/EsraSevincBlog.Core.csproj"
     },
+    "EsraSevincBlogProject.Business/1.0.0": {
+      "type": "project",
+      "path": "../EsraSevincBlogProject.Business/EsraSevincBlogProject.Business.csproj",
+      "msbuildProject": "../EsraSevincBlogProject.Business/EsraSevincBlogProject.Business.csproj"
+    },
+    "EsraSevincBlogProject.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../EsraSevincBlogProject.DataAccess/EsraSevincBlogProject.DataAccess.csproj",
+      "msbuildProject": "../EsraSevincBlogProject.DataAccess/EsraSevincBlogProject.DataAccess.csproj"
+    },
     "EsraSevincBlogProject.Entities/1.0.0": {
       "type": "project",
       "path": "../EsraSevincBlogProject.Entities/EsraSevincBlogProject.Entities.csproj",
@@ -3543,6 +3583,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "EsraSevincBlog.Core >= 1.0.0",
+      "EsraSevincBlogProject.Business >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5"
     ]
@@ -3581,6 +3622,9 @@
           "projectReferences": {
             "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlog.Core\\EsraSevincBlog.Core.csproj": {
               "projectPath": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlog.Core\\EsraSevincBlog.Core.csproj"
+            },
+            "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Business\\EsraSevincBlogProject.Business.csproj": {
+              "projectPath": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Business\\EsraSevincBlogProject.Business.csproj"
             }
           }
         }

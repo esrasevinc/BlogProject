@@ -1,7 +1,18 @@
+using EsraSevincBlogProject.Business.Abstract;
+using EsraSevincBlogProject.Business.Concrete;
+using EsraSevincBlogProject.DataAccess.Abstract;
+using EsraSevincBlogProject.DataAccess.Concrete;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSingleton<IBlogService, BlogManager>();
+builder.Services.AddSingleton<IBlogDal, BlogDal>();
+
+builder.Services.AddSingleton<ICategoryService, CategoryManager>();
+builder.Services.AddSingleton<ICategoryDal, CategoryDal>();
 
 var app = builder.Build();
 

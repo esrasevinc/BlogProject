@@ -89,3 +89,7 @@ C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevin
 C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Web\bin\Debug\net6.0\EsraSevincBlogProject.Entities.dll
 C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Web\bin\Debug\net6.0\EsraSevincBlog.Core.pdb
 C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Web\bin\Debug\net6.0\EsraSevincBlogProject.Entities.pdb
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Web\bin\Debug\net6.0\EsraSevincBlogProject.Business.dll
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Web\bin\Debug\net6.0\EsraSevincBlogProject.DataAccess.dll
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Web\bin\Debug\net6.0\EsraSevincBlogProject.Business.pdb
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Web\bin\Debug\net6.0\EsraSevincBlogProject.DataAccess.pdb

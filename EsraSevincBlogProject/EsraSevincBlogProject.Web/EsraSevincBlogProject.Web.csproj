@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EsraSevincBlog.Core\EsraSevincBlog.Core.csproj" />
+    <ProjectReference Include="..\EsraSevincBlogProject.Business\EsraSevincBlogProject.Business.csproj" />
   </ItemGroup>
 
 </Project>

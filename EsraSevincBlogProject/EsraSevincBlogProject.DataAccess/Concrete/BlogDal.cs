@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace EsraSevincBlogProject.DataAccess.Concrete
 {
-    public class FarkindalikModuluDal : GenericRepository<Blog>, IBlogDal
+    public class BlogDal : GenericRepository<Blog>, IBlogDal
     {
     }
 }

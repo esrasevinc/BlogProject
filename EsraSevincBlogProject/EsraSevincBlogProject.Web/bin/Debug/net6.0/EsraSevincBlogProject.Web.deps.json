@@ -9,6 +9,7 @@
       "EsraSevincBlogProject.Web/1.0.0": {
         "dependencies": {
           "EsraSevincBlog.Core": "1.0.0",
+          "EsraSevincBlogProject.Business": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.5"
         },
@@ -709,6 +710,26 @@
           "EsraSevincBlog.Core.dll": {}
         }
       },
+      "EsraSevincBlogProject.Business/1.0.0": {
+        "dependencies": {
+          "EsraSevincBlogProject.DataAccess": "1.0.0",
+          "EsraSevincBlogProject.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
+        },
+        "runtime": {
+          "EsraSevincBlogProject.Business.dll": {}
+        }
+      },
+      "EsraSevincBlogProject.DataAccess/1.0.0": {
+        "dependencies": {
+          "EsraSevincBlog.Core": "1.0.0",
+          "EsraSevincBlogProject.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
+        },
+        "runtime": {
+          "EsraSevincBlogProject.DataAccess.dll": {}
+        }
+      },
       "EsraSevincBlogProject.Entities/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
@@ -1202,6 +1223,16 @@
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
     "EsraSevincBlog.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EsraSevincBlogProject.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EsraSevincBlogProject.DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
