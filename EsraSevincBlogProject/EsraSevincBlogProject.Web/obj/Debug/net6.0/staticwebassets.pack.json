@@ -5,12 +5,88 @@
       "PackagePath": "staticwebassets\\EsraSevincBlogProject.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\css\\mediumish.css",
+      "PackagePath": "staticwebassets\\css\\mediumish.css"
+    },
+    {
       "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\img\\default-img.jpg",
+      "PackagePath": "staticwebassets\\img\\default-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\img\\demopic\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\demopic\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\img\\demopic\\10.jpg",
+      "PackagePath": "staticwebassets\\img\\demopic\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\img\\demopic\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\demopic\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\img\\demopic\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\demopic\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\img\\demopic\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\demopic\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\img\\demopic\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\demopic\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\img\\demopic\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\demopic\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\img\\demopic\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\demopic\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\img\\demopic\\8.jpg",
+      "PackagePath": "staticwebassets\\img\\demopic\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\img\\demopic\\9.jpg",
+      "PackagePath": "staticwebassets\\img\\demopic\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\js\\ie10-viewport-bug-workaround.js",
+      "PackagePath": "staticwebassets\\js\\ie10-viewport-bug-workaround.js"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\js\\mediumish.js",
+      "PackagePath": "staticwebassets\\js\\mediumish.js"
     },
     {
       "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\js\\site.js",

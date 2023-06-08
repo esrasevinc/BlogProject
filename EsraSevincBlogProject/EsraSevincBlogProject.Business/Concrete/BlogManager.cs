@@ -12,7 +12,13 @@ namespace EsraSevincBlogProject.Business.Concrete
     public class BlogManager : IBlogService
     {
         private readonly IBlogDal _blogDal;
-        public int Delete(Blog p1)
+
+		public BlogManager(IBlogDal blogDal)
+		{
+			_blogDal = blogDal;
+		}
+
+		public int Delete(Blog p1)
         {
             int result = _blogDal.Delete(p1);
             return result;

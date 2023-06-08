@@ -14,6 +14,8 @@ builder.Services.AddSingleton<IBlogDal, BlogDal>();
 builder.Services.AddSingleton<ICategoryService, CategoryManager>();
 builder.Services.AddSingleton<ICategoryDal, CategoryDal>();
 
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

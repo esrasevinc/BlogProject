@@ -1,0 +1,12 @@
+﻿@model List<Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@foreach (var item in Model)
+{
+    <p>@item.ID</p>
+    <p>@item.CategoryName</p>
+    <hr />
+}
