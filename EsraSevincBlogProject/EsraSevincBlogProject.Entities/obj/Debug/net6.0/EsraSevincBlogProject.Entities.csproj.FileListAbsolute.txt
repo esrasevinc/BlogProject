@@ -1,0 +1,14 @@
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Entities\bin\Debug\net6.0\EsraSevincBlogProject.Entities.deps.json
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Entities\bin\Debug\net6.0\EsraSevincBlogProject.Entities.runtimeconfig.json
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Entities\bin\Debug\net6.0\EsraSevincBlogProject.Entities.dll
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Entities\bin\Debug\net6.0\EsraSevincBlogProject.Entities.pdb
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Entities\obj\Debug\net6.0\EsraSevincBlogProject.Entities.csproj.AssemblyReference.cache
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Entities\obj\Debug\net6.0\EsraSevincBlogProject.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Entities\obj\Debug\net6.0\EsraSevincBlogProject.Entities.AssemblyInfoInputs.cache
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Entities\obj\Debug\net6.0\EsraSevincBlogProject.Entities.AssemblyInfo.cs
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Entities\obj\Debug\net6.0\EsraSevincBlogProject.Entities.csproj.CoreCompileInputs.cache
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Entities\obj\Debug\net6.0\EsraSevincBlogProject.Entities.dll
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Entities\obj\Debug\net6.0\refint\EsraSevincBlogProject.Entities.dll
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Entities\obj\Debug\net6.0\EsraSevincBlogProject.Entities.pdb
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Entities\obj\Debug\net6.0\EsraSevincBlogProject.Entities.genruntimeconfig.cache
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Entities\obj\Debug\net6.0\ref\EsraSevincBlogProject.Entities.dll

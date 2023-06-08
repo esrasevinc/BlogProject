@@ -1,0 +1,17 @@
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\bin\Debug\net6.0\EsraSevincBlog.Core.deps.json
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\bin\Debug\net6.0\EsraSevincBlog.Core.runtimeconfig.json
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\bin\Debug\net6.0\EsraSevincBlog.Core.dll
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\bin\Debug\net6.0\EsraSevincBlog.Core.pdb
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\bin\Debug\net6.0\EsraSevincBlogProject.Entities.dll
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\bin\Debug\net6.0\EsraSevincBlogProject.Entities.pdb
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\obj\Debug\net6.0\EsraSevincBlog.Core.csproj.AssemblyReference.cache
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\obj\Debug\net6.0\EsraSevincBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\obj\Debug\net6.0\EsraSevincBlog.Core.AssemblyInfoInputs.cache
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\obj\Debug\net6.0\EsraSevincBlog.Core.AssemblyInfo.cs
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\obj\Debug\net6.0\EsraSevincBlog.Core.csproj.CoreCompileInputs.cache
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\obj\Debug\net6.0\EsraSevincBlog.Core.csproj.CopyComplete
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\obj\Debug\net6.0\EsraSevincBlog.Core.dll
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\obj\Debug\net6.0\refint\EsraSevincBlog.Core.dll
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\obj\Debug\net6.0\EsraSevincBlog.Core.pdb
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\obj\Debug\net6.0\EsraSevincBlog.Core.genruntimeconfig.cache
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlog.Core\obj\Debug\net6.0\ref\EsraSevincBlog.Core.dll
