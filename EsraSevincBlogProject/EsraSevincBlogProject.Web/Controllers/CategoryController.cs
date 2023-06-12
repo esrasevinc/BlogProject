@@ -20,6 +20,7 @@ namespace EsraSevincBlogProject.Web.Controllers
         public IActionResult Delete(int id)
         {
             Category detail = _categoryService.GetById(id);
+            detail.DeleteTime = DateTime.Now.ToLongDateString();
             int result = _categoryService.Delete(detail);
             return RedirectToAction("Index");
         }
@@ -27,12 +28,14 @@ namespace EsraSevincBlogProject.Web.Controllers
         public IActionResult Update(int id)
         {
             Category detail = _categoryService.GetById(id);
-            return View(detail);
+			detail.UpdateTime = DateTime.Now.ToLongDateString();
+			return View(detail);
         }
 
         [HttpPost]
         public IActionResult Update(Category p1)
         {
+            p1.UpdateTime = DateTime.Now.ToLongDateString();
             int result = _categoryService.Update(p1);
             return result == 0 ? View(p1) : RedirectToAction("Index");
         }
@@ -46,6 +49,7 @@ namespace EsraSevincBlogProject.Web.Controllers
         [HttpPost]
         public IActionResult Add(Category p1)
         {
+            p1.CreateTime = DateTime.Now.ToLongDateString();
             int result = _categoryService.Insert(p1);
             return result == 0 ? View(p1) : RedirectToAction("Index");
         }

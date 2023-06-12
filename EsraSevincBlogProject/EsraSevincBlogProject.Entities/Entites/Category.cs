@@ -10,5 +10,9 @@ namespace EsraSevincBlogProject.Entities.Entites
     {
         public int ID { get; set; }
         public string? CategoryName { get; set; }
-    }
+		public string? CreateTime { get; set; }
+		public string? UpdateTime { get; set; }
+		public string? DeleteTime { get; set; }
+
+	}
 }
