@@ -16,8 +16,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/esrasevinc/Documents/GitHub/BlogProject/EsraSevincBlogProject/EsraSevincBlogProject.Web/Areas/Admin/Views/AdminPanel/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5QYW5lbFxJbmRleC5jc2h0bWw=
+[C:/Users/esrasevinc/Documents/GitHub/BlogProject/EsraSevincBlogProject/EsraSevincBlogProject.Web/Areas/Admin/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/esrasevinc/Documents/GitHub/BlogProject/EsraSevincBlogProject/EsraSevincBlogProject.Web/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
