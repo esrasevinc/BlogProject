@@ -1,4 +1,5 @@
-﻿using EsraSevincBlogProject.Entities.Entites;
+﻿
+using EsraSevincBlogProject.Entities.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,10 +12,8 @@ namespace EsraSevincBlogProject.Business.Abstract
     {
         List<Blog> GetAll();
         int Insert(Blog p1);
-
         int Update(Blog p1);
         int Delete(Blog p1);
-
         Blog GetById(int id);
     }
 }

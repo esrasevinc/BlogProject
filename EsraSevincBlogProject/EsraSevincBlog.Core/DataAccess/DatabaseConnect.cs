@@ -1,4 +1,5 @@
-﻿using EsraSevincBlogProject.Entities.Entites;
+﻿
+using EsraSevincBlogProject.Entities.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

@@ -1,5 +1,5 @@
 ﻿using EsraSevincBlogProject.Business.Abstract;
-using EsraSevincBlogProject.Entities.Entites;
+using EsraSevincBlogProject.Entities.Entities;
 using EsraSevincBlogProject.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;

@@ -1,5 +1,5 @@
 ﻿using EsraSevincBlogProject.Business.Abstract;
-using EsraSevincBlogProject.Entities.Entites;
+using EsraSevincBlogProject.Entities.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EsraSevincBlogProject.Web.Controllers

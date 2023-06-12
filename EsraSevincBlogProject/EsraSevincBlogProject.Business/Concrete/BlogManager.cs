@@ -1,6 +1,6 @@
 ﻿using EsraSevincBlogProject.Business.Abstract;
 using EsraSevincBlogProject.DataAccess.Abstract;
-using EsraSevincBlogProject.Entities.Entites;
+using EsraSevincBlogProject.Entities.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

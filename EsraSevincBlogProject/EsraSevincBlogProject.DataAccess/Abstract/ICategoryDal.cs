@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EsraSevincBlog.Core.Abstract;
-using EsraSevincBlogProject.Entities.Entites;
+using EsraSevincBlogProject.Entities.Entities;
 
 
 namespace EsraSevincBlogProject.DataAccess.Abstract
