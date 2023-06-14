@@ -8,10 +8,12 @@ namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
     public class AdminBlogController : Controller
 	{
         IBlogService _blogService;
+        ICategoryService _categoryService;
 
-        public AdminBlogController(IBlogService blogService)
+        public AdminBlogController(IBlogService blogService, ICategoryService categoryService)
         {
             _blogService = blogService;
+            _categoryService = categoryService;
         }
         public IActionResult Index()
 		{
@@ -22,8 +24,9 @@ namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Add()
         {
-
-            return View();
+            List<Category> liste = _categoryService.GetAll();
+            return View(liste);
+   
         }
 
         [HttpPost]

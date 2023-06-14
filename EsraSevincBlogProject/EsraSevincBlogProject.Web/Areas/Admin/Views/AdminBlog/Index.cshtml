@@ -23,6 +23,7 @@
                                     <th>Blog Yazısı</th>
                                     <th>Blog Yazarı</th>
                                     <th>Blog Özeti</th>
+                                    <th>Kategori ID</th>
                                     <th>İşlemler</th>
                                 </tr>
                             </thead>
@@ -35,6 +36,7 @@
                                         <th>@item.BlogDescription</th>
                                         <th>@item.BlogAuthor</th>
                                         <th>@item.BlogSummary</th>
+                                        <th>@item.CategoryID</th>
                                         <th>
                                             <a asp-action="Update" asp-controller="AdminBlog" asp-route-id="@item.ID" title="Güncelle" class="btn btn-outline btn-warning">Güncelle</a>
                                             <a asp-action="Delete" asp-controller="AdminBlog" asp-route-id="@item.ID" title="Sil" class="btn btn-outline btn-danger" onclick="return confirm('Silmek istediğinize emin misiniz?')">Sil</a>

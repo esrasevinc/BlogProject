@@ -4,6 +4,7 @@ using EsraSevincBlog.Core.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EsraSevincBlog.Core.Migrations
 {
     [DbContext(typeof(DatabaseConnect))]
-    partial class DatabaseConnectModelSnapshot : ModelSnapshot
+    [Migration("20230614124128_CategoryIDEklendi")]
+    partial class CategoryIDEklendi
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

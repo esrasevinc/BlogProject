@@ -16,5 +16,8 @@ namespace EsraSevincBlogProject.Entities.Entities
 		public string? CreateTime { get; set; }
 		public string? UpdateTime { get; set; }
 		public string? DeleteTime { get; set; }
-	}
+		public Category? Category { get; set; }
+        public int? CategoryID { get; set; }
+
+    }
 }
