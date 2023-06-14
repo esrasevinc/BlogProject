@@ -16,6 +16,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/esrasevinc/Documents/GitHub/BlogProject/EsraSevincBlogProject/EsraSevincBlogProject.Web/Areas/Admin/Views/AdminBlog/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CbG9nXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esrasevinc/Documents/GitHub/BlogProject/EsraSevincBlogProject/EsraSevincBlogProject.Web/Areas/Admin/Views/AdminBlog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CbG9nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esrasevinc/Documents/GitHub/BlogProject/EsraSevincBlogProject/EsraSevincBlogProject.Web/Areas/Admin/Views/AdminBlog/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CbG9nXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esrasevinc/Documents/GitHub/BlogProject/EsraSevincBlogProject/EsraSevincBlogProject.Web/Areas/Admin/Views/AdminCategory/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yeVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esrasevinc/Documents/GitHub/BlogProject/EsraSevincBlogProject/EsraSevincBlogProject.Web/Areas/Admin/Views/AdminCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/esrasevinc/Documents/GitHub/BlogProject/EsraSevincBlogProject/EsraSevincBlogProject.Web/Areas/Admin/Views/AdminCategory/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yeVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/esrasevinc/Documents/GitHub/BlogProject/EsraSevincBlogProject/EsraSevincBlogProject.Web/Areas/Admin/Views/Default/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

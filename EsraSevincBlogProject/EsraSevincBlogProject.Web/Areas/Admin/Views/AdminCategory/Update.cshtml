@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title fw-semibold mb-4">Forms</h5>
+            <div class="card">
+                <div class="card-body">
+                    <form id="form" asp-action="Update" method="post" class="wizard-big">
+                        <div class="mb-3">
+                            <label for="categoryName" class="form-label">Kategori Adı</label>
+                            <input id="categoryName" name="categoryName" type="text" value="@Model.CategoryName" class="form-control">
+                            <div id="categoryName" class="form-text"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+

@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title fw-semibold mb-4">Forms</h5>
+            <div class="card">
+                <div class="card-body">
+                    <form id="form" asp-action="Update" method="post" class="wizard-big">
+                        <div class="mb-3">
+                            <label for="blogTitle" class="form-label">Blog Başlığı</label>
+                            <input id="blogTitle" name="blogTitle" type="text" value="@Model.BlogTitle" class="form-control">
+                            <div id="blogTitle" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="blogDescription" class="form-label">Blog Yazısı</label>
+                            <input id="blogDescription" name="blogDescription" type="text" value="@Model.BlogDescription" class="form-control">
+                            <div id="blogDescription" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="blogAuthor" class="form-label">Blog Yazarı</label>
+                            <input id="blogAuthor" name="blogAuthor" type="text" value="@Model.BlogAuthor" class="form-control">
+                            <div id="blogAuthor" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="blogSummary" class="form-label">Blog Özeti</label>
+                            <input id="blogSummary" name="blogSummary" type="text" value="@Model.BlogSummary" class="form-control">
+                            <div id="blogSummary" class="form-text"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
