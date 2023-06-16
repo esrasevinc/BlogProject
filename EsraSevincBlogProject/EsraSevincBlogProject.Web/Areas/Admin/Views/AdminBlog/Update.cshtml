@@ -1,4 +1,6 @@
-﻿@{
+﻿@model BlogViewModel
+
+@{
     ViewData["Title"] = "Update";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
@@ -12,27 +14,27 @@
                     <form id="form" asp-action="Update" method="post" class="wizard-big">
                         <div class="mb-3">
                             <label for="blogTitle" class="form-label">Blog Başlığı</label>
-                            <input id="blogTitle" name="blogTitle" type="text" value="@Model.BlogTitle" class="form-control">
+                            <input id="blogTitle" name="blogTitle" type="text" value="@Model.Blog.BlogTitle" class="form-control">
                             <div id="blogTitle" class="form-text"></div>
                         </div>
                         <div class="mb-3">
                             <label for="blogDescription" class="form-label">Blog İçeriği</label>
-                            <input id="blogDescription" name="blogDescription" type="text" value="@Model.BlogDescription" class="form-control">
+                            <input id="blogDescription" name="blogDescription" type="text" value="@Model.Blog.BlogDescription" class="form-control">
                             <div id="blogDescription" class="form-text"></div>
                         </div>
                         <div class="mb-3">
                             <label for="blogAuthor" class="form-label">Blog Yazarı</label>
-                            <input id="blogAuthor" name="blogAuthor" type="text" value="@Model.BlogAuthor" class="form-control">
+                            <input id="blogAuthor" name="blogAuthor" type="text" value="@Model.Blog.BlogAuthor" class="form-control">
                             <div id="blogAuthor" class="form-text"></div>
                         </div>
                         <div class="mb-3">
                             <label for="blogSummary" class="form-label">Blog Özeti</label>
-                            <input id="blogSummary" name="blogSummary" type="text" value="@Model.BlogSummary" class="form-control">
+                            <input id="blogSummary" name="blogSummary" type="text" value="@Model.Blog.BlogSummary" class="form-control">
                             <div id="blogSummary" class="form-text"></div>
                         </div>
                         <div class="mb-3">
                             <label for="categoryID" class="form-label">Kategori</label>
-                            <input id="categoryID" name="categoryID" type="text" value="@Model.CategoryID" class="form-control">
+                            <select class="form-select" asp-items="@Model.CatSel" asp-for="CategoryID"></select>
                             <div id="categoryID" class="form-text"></div>
                         </div>
                         <button type="submit" class="btn btn-primary">Kaydet</button>

@@ -3,6 +3,7 @@ using EsraSevincBlogProject.Entities.Entities;
 using EsraSevincBlogProject.Web.Areas.Admin.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Collections.Generic;
 
 namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
 {
@@ -32,23 +33,22 @@ namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
                 Text = x.CategoryName,
                 Value = x.ID.ToString()
             }).ToList();
-            BlogViewModel a = new BlogViewModel
+            BlogViewModel viewModel = new BlogViewModel
             {
                 CatSel = list
             };
-            return View(a);
+            return View(viewModel);
         }
 
         [HttpPost]
         public IActionResult Add(Blog p1)
         {
-            int aa = (int)p1.CategoryID;
-            Category category= _categoryService.GetById(aa);
-
-            string catename = category.CategoryName;
+            int id = (int)p1.CategoryID;
+            Category category= _categoryService.GetById(id);
+            string categoryName = category.CategoryName;
 
             p1.CreateTime = DateTime.Now.ToLongDateString();
-            p1.CategoryName = catename;
+            p1.CategoryName = categoryName;
             int result = _blogService.Insert(p1);
             return result == 0 ? View(p1) : RedirectToAction("Index");
         }
@@ -61,17 +61,34 @@ namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpGet]
         public IActionResult Update(int id)
         {
             Blog detail = _blogService.GetById(id);
             detail.UpdateTime = DateTime.Now.ToLongDateString();
-            return View(detail);
+            List<Category> liste = _categoryService.GetAll();
+            List<SelectListItem> list = liste.Select(x => new SelectListItem
+            {
+                Text = x.CategoryName,
+                Value = x.ID.ToString()
+            }).ToList();
+            BlogViewModel viewModel = new BlogViewModel
+            {
+                CatSel = list,
+                Blog = detail
+            };
+            return View(viewModel);
         }
 
         [HttpPost]
         public IActionResult Update(Blog p1)
         {
+            int id = (int)p1.CategoryID;
+            Category category = _categoryService.GetById(id);
+            string categoryName = category.CategoryName;
+
             p1.UpdateTime = DateTime.Now.ToLongDateString();
+            p1.CategoryName = categoryName;
             int result = _blogService.Update(p1);
             return result == 0 ? View(p1) : RedirectToAction("Index");
         }
