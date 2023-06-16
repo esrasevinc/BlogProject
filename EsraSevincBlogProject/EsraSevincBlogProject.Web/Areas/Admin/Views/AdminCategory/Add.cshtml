@@ -1,4 +1,4 @@
-﻿
+﻿@model Category
 @{
     ViewData["Title"] = "Add";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
@@ -15,6 +15,7 @@
                             <label for="categoryName" class="form-label">Kategori Adı</label>
                             <input id="categoryName" name="categoryName" type="text" class="form-control">
                             <div id="categoryName" class="form-text"></div>
+                            <span asp-validation-for="CategoryName"></span>
                         </div>
                         <button type="submit" class="btn btn-primary">Kaydet</button>
                     </form>

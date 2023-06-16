@@ -1,7 +1,11 @@
 using EsraSevincBlogProject.Business.Abstract;
 using EsraSevincBlogProject.Business.Concrete;
+using EsraSevincBlogProject.Business.ValidationRules;
 using EsraSevincBlogProject.DataAccess.Abstract;
 using EsraSevincBlogProject.DataAccess.Concrete;
+using EsraSevincBlogProject.Entities.Entities;
+using FluentValidation;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +19,8 @@ builder.Services.AddSingleton<ICategoryService, CategoryManager>();
 builder.Services.AddSingleton<ICategoryDal, CategoryDal>();
 
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+builder.Services.AddScoped<IValidator<Category>, CategoryValidation>();
 
 var app = builder.Build();
 

@@ -1,6 +1,10 @@
 ﻿using EsraSevincBlogProject.Business.Abstract;
 using EsraSevincBlogProject.Entities.Entities;
+using FluentValidation;
+using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+using System;
 
 namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
 {
@@ -8,11 +12,14 @@ namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
     public class AdminCategoryController : Controller
 	{
         ICategoryService _categoryService;
+        private IValidator<Category> _validator;
 
-        public AdminCategoryController(ICategoryService categoryService)
+        public AdminCategoryController(IValidator<Category> validator, ICategoryService categoryService)
         {
+            _validator = validator;
             _categoryService = categoryService;
         }
+        
 
         public IActionResult Index()
 		{
@@ -29,9 +36,14 @@ namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Add(Category p1)
         {
+            if (!ModelState.IsValid)
+            {
+                return View();
+               
+            }
             p1.CreateTime = DateTime.Now.ToLongDateString();
-            int result = _categoryService.Insert(p1);
-            return result == 0 ? View(p1) : RedirectToAction("Index");
+            int result1 = _categoryService.Insert(p1);
+            return result1 == 0 ? View(p1) : RedirectToAction("Index");
         }
         
         public IActionResult Delete(int id)

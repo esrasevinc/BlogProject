@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "mIP0pNVYLOQPr6IZ/uJq36tT+fcNj9XNeLfrMEqKlzS+47ovLZbgcknmKVHGDz5jxdrysT7s8ZPkDa5qmSI+HA==",
+  "dgSpecHash": "I52lZpj/luDA7No6KbDK38pCFlKwlVYM5ihW56sGQGs4cvFjFEixhHYE9YvcIwXARJwS9oN5oSjlt597DLzPXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\EsraSevincBlogProject.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\esrasevinc\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\esrasevinc\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\esrasevinc\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\esrasevinc\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\esrasevinc\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\esrasevinc\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\esrasevinc\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\esrasevinc\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

@@ -575,3 +575,6 @@ C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevin
 C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Web\obj\Debug\net6.0\EsraSevincBlogProject.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Web\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Web\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\esrasevinc\Documents\GitHub\BlogProject\EsraSevincBlogProject\EsraSevincBlogProject.Web\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
