@@ -33,7 +33,7 @@ namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
             int result = _categoryService.Insert(p1);
             return result == 0 ? View(p1) : RedirectToAction("Index");
         }
-
+        
         public IActionResult Delete(int id)
         {
             Category detail = _categoryService.GetById(id);

@@ -26,7 +26,6 @@ namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
         {
             List<Category> liste = _categoryService.GetAll();
             return View(liste);
-   
         }
 
         [HttpPost]
@@ -59,6 +58,5 @@ namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
             int result = _blogService.Update(p1);
             return result == 0 ? View(p1) : RedirectToAction("Index");
         }
-
     }
 }
