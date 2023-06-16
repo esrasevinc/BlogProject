@@ -1,4 +1,6 @@
-﻿@{
+﻿@model BlogViewModel
+
+@{
     ViewData["Title"] = "Add";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
@@ -15,6 +17,9 @@
                             <input id="blogTitle" name="blogTitle" type="text" class="form-control">
                             <div id="blogTitle" class="form-text"></div>
                         </div>
+
+                        <select class="form-select" asp-items="@Model.CatSel" asp-for="CategoryID" ></select>
+
                         <div class="mb-3">
                             <label for="blogDescription" class="form-label">Blog İçeriği</label>
                             <input id="blogDescription" name="blogDescription" type="text" class="form-control">
@@ -30,11 +35,11 @@
                             <input id="blogSummary" name="blogSummary" type="text" class="form-control">
                             <div id="blogSummary" class="form-text"></div>
                         </div>
-                        <div class="mb-3">
+                        @*<div class="mb-3">
                             <label for="categoryID" class="form-label">Kategori</label>
                             <input id="categoryID" name="categoryID" type="text" class="form-control">
                             <div id="categoryID" class="form-text"></div>
-                        </div>
+                        </div>*@
                         <button type="submit" class="btn btn-primary">Kaydet</button>
                     </form>
                 </div>
