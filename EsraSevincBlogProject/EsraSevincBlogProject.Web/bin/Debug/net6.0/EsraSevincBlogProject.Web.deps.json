@@ -36,7 +36,6 @@
         "dependencies": {
           "EsraSevincBlog.Core": "1.0.0",
           "EsraSevincBlogProject.Business": "1.0.0",
-          "FluentValidation": "11.5.2",
           "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.16",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",

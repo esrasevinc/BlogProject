@@ -1,12 +1,16 @@
 ﻿<!doctype html>
 <html lang="en">
 
+
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Panel</title>
     <link rel="shortcut icon" type="image/png" href="~/admin/images/logos/favicon.png" />
     <link rel="stylesheet" href="~/admin/css/styles.min.css" />
+    <link href="~/summernote/summernote.css" rel="stylesheet" />
+    
 </head>
 
 <body>
@@ -118,6 +122,18 @@
     <script src="~/admin/libs/apexcharts/dist/apexcharts.min.js"></script>
     <script src="~/admin/libs/simplebar/dist/simplebar.js"></script>
     <script src="~/admin/js/dashboard.js"></script>
+
+    <script src="~/summernote/summernote.js"></script>
+    
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.summernote').summernote();
+        });
+    </script>
+    
 </body>
+
 
 </html>

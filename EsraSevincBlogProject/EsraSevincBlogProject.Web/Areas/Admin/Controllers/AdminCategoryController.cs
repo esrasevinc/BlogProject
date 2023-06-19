@@ -38,8 +38,7 @@ namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View();
-               
+                return View();               
             }
             p1.CreateTime = DateTime.Now.ToLongDateString();
             int result1 = _categoryService.Insert(p1);

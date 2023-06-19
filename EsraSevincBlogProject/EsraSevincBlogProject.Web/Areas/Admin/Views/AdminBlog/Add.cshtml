@@ -14,13 +14,13 @@
                     <form id="form" asp-action="Add" method="post" class="wizard-big">
                         <div class="mb-3">
                             <label for="blogTitle" class="form-label">Blog Başlığı</label>
-                            <input id="blogTitle" name="blogTitle" type="text" class="form-control">
-                            <div id="blogTitle" class="form-text"></div>
+                            <input asp-for="@Model.Blog.BlogTitle" type="text" class="form-control">
+                            <span asp-validation-for="@Model.Blog.BlogTitle"></span>
                         </div>
                         <div class="mb-3">
                             <label for="blogDescription" class="form-label">Blog İçeriği</label>
-                            <input id="blogDescription" name="blogDescription" type="text" class="form-control">
-                            <div id="blogDescription" class="form-text"></div>
+                            <input class="summernote form-control" asp-for="@Model.Blog.BlogDescription" type="text">
+                            <span asp-validation-for="@Model.Blog.BlogDescription"></span>
                         </div>
                         <div class="mb-3">
                             <label for="blogAuthor" class="form-label">Blog Yazarı</label>

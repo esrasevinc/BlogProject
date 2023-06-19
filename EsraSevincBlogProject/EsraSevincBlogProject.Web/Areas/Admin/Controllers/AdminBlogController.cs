@@ -41,15 +41,31 @@ namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Add(Blog p1)
+        public IActionResult Add(BlogViewModel p1)
         {
+
+            if (!ModelState.IsValid)
+            {
+                List<Category> liste = _categoryService.GetAll();
+                List<SelectListItem> list = liste.Select(x => new SelectListItem
+                {
+                    Text = x.CategoryName,
+                    Value = x.ID.ToString()
+                }).ToList();
+                BlogViewModel viewModel = new BlogViewModel
+                {
+                    CatSel = list
+                };
+                return View(viewModel);
+            }
+
             int id = (int)p1.CategoryID;
             Category category= _categoryService.GetById(id);
             string categoryName = category.CategoryName;
 
-            p1.CreateTime = DateTime.Now.ToLongDateString();
-            p1.CategoryName = categoryName;
-            int result = _blogService.Insert(p1);
+            p1.Blog.CreateTime = DateTime.Now.ToLongDateString();
+            p1.Blog.CategoryName = categoryName;
+            int result = _blogService.Insert(p1.Blog);
             return result == 0 ? View(p1) : RedirectToAction("Index");
         }
 

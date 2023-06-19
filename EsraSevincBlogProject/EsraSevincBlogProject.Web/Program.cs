@@ -5,6 +5,7 @@ using EsraSevincBlogProject.DataAccess.Abstract;
 using EsraSevincBlogProject.DataAccess.Concrete;
 using EsraSevincBlogProject.Entities.Entities;
 using FluentValidation;
+using FluentValidation.AspNetCore;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,9 +19,10 @@ builder.Services.AddSingleton<IBlogDal, BlogDal>();
 builder.Services.AddSingleton<ICategoryService, CategoryManager>();
 builder.Services.AddSingleton<ICategoryDal, CategoryDal>();
 
-builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation().AddFluentValidation();
 
-builder.Services.AddScoped<IValidator<Category>, CategoryValidation>();
+builder.Services.AddScoped<IValidator<Category>, CategoryValidator>();
+builder.Services.AddScoped<IValidator<Blog>, BlogValidator>();
 
 var app = builder.Build();
 
