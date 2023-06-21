@@ -41,7 +41,7 @@ namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Add(BlogViewModel p1)
+        public IActionResult Add(BlogViewModel p1,Blog blog)
         {
 
             if (!ModelState.IsValid)
