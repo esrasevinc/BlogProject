@@ -24,6 +24,7 @@
                                     <th>Blog Yazarı</th>
                                     <th>Blog Özeti</th>
                                     <th>Kategori</th>
+                                    <th>Görsel</th>
                                     <th>İşlemler</th>
                                 </tr>
                             </thead>
@@ -33,10 +34,23 @@
                                     <tr class="gradeX">
                                         <th>@item.ID</th>
                                         <th>@item.BlogTitle</th>
-                                        <th>@item.BlogDescription</th>
+                                        <th>@Html.Raw(@item.BlogDescription)</th>
                                         <th>@item.BlogAuthor</th>
                                         <th>@item.BlogSummary</th>
                                         <th>@item.CategoryName</th>
+                                        <th>
+                                            @if (String.IsNullOrEmpty(item.NewFileName))
+                                            {
+                                                <p></p>
+                                            }
+                                            else
+                                            {
+                                                <img src="\BlogImages\@item.NewFileName" width="100" height="100" />
+
+
+                                            }
+                                        </th>
+
                                         <th>
                                             <a asp-action="Update" asp-controller="AdminBlog" asp-route-id="@item.ID" title="Güncelle" class="btn btn-outline btn-warning">Güncelle</a>
                                             <a asp-action="Delete" asp-controller="AdminBlog" asp-route-id="@item.ID" title="Sil" class="btn btn-outline btn-danger" onclick="return confirm('Silmek istediğinize emin misiniz?')">Sil</a>

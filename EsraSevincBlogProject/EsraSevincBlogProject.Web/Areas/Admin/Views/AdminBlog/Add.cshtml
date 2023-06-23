@@ -11,7 +11,7 @@
             <h5 class="card-title fw-semibold mb-4">Forms</h5>
             <div class="card">
                 <div class="card-body">
-                    <form asp-action="Add" asp-area="Admin" asp-controller="AdminBlog" method="post" class="wizard-big">
+                    <form asp-action="Add" asp-area="Admin" asp-controller="AdminBlog" method="post" class="wizard-big" enctype="multipart/form-data">
                         <div class="mb-3">
                             <label for="blogTitle" class="form-label">Blog Başlığı</label>
                             <input asp-for="@Model.Blog.BlogTitle" type="text" class="form-control">
@@ -36,6 +36,11 @@
                             <label for="categoryID" class="form-label">Kategori</label>
                             <select class="form-select" asp-items="@Model.CatSel" asp-for="CategoryID"></select>
                             <div id="categoryID" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="categoryID" class="form-label">Kategori</label>
+                            <input name="Image" type="file" class="custom-file-input"></input>
+                            <label for="logo">Dosya Yükle</label>
                         </div>
                         <button type="submit" class="btn btn-primary">Kaydet</button>
                     </form>

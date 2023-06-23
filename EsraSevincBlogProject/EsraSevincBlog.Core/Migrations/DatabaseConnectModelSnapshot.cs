@@ -54,6 +54,15 @@ namespace EsraSevincBlog.Core.Migrations
                     b.Property<string>("DeleteTime")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("FileName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FilePath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NewFileName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("UpdateTime")
                         .HasColumnType("nvarchar(max)");
 
@@ -79,6 +88,15 @@ namespace EsraSevincBlog.Core.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DeleteTime")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FileName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FilePath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NewFileName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UpdateTime")

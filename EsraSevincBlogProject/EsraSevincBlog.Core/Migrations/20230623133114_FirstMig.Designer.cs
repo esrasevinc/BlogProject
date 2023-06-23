@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EsraSevincBlog.Core.Migrations
 {
     [DbContext(typeof(DatabaseConnect))]
-    [Migration("20230614124128_CategoryIDEklendi")]
-    partial class CategoryIDEklendi
+    [Migration("20230623133114_FirstMig")]
+    partial class FirstMig
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -48,10 +48,22 @@ namespace EsraSevincBlog.Core.Migrations
                     b.Property<int?>("CategoryID")
                         .HasColumnType("int");
 
+                    b.Property<string>("CategoryName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("CreateTime")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DeleteTime")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FileName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FilePath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NewFileName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UpdateTime")
@@ -79,6 +91,15 @@ namespace EsraSevincBlog.Core.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DeleteTime")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FileName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FilePath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NewFileName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UpdateTime")

@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\EsraSevincBlogProject.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\BlogImages\\Test_2023_6_23_16_8_56_175_aa.jpg",
+      "PackagePath": "staticwebassets\\BlogImages\\Test_2023_6_23_16_8_56_175_aa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\BlogImages\\asdfghjk_2023_6_23_16_20_37_380_aa.jpg",
+      "PackagePath": "staticwebassets\\BlogImages\\asdfghjk_2023_6_23_16_20_37_380_aa.jpg"
+    },
+    {
       "Id": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\admin\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot",
       "PackagePath": "staticwebassets\\admin\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot"
     },

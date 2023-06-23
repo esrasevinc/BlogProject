@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+4HMCox5ZchTQf88ULc/W1SN4ljCFoHUOlZtA0aP+X0=",
+  "Hash": "1MsNAtBLi2LpYRSbY4/StCIG4s7hvDrJNYYr4E+td8Q=",
   "Source": "EsraSevincBlogProject.Web",
   "BasePath": "_content/EsraSevincBlogProject.Web",
   "Mode": "Default",
@@ -10929,6 +10929,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\scss\\variables\\_variables.scss"
+    },
+    {
+      "Identity": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\BlogImages\\asdfghjk_2023_6_23_16_20_37_380_aa.jpg",
+      "SourceId": "EsraSevincBlogProject.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\",
+      "BasePath": "_content/EsraSevincBlogProject.Web",
+      "RelativePath": "BlogImages/asdfghjk_2023_6_23_16_20_37_380_aa.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BlogImages\\asdfghjk_2023_6_23_16_20_37_380_aa.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\BlogImages\\Test_2023_6_23_16_8_56_175_aa.jpg",
+      "SourceId": "EsraSevincBlogProject.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\",
+      "BasePath": "_content/EsraSevincBlogProject.Web",
+      "RelativePath": "BlogImages/Test_2023_6_23_16_8_56_175_aa.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BlogImages\\Test_2023_6_23_16_8_56_175_aa.jpg"
     },
     {
       "Identity": "C:\\Users\\esrasevinc\\Documents\\GitHub\\BlogProject\\EsraSevincBlogProject\\EsraSevincBlogProject.Web\\wwwroot\\css\\bootstrap.min.css",

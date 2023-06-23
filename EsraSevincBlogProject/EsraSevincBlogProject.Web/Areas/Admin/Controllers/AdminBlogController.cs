@@ -41,38 +41,55 @@ namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Add(BlogViewModel p1,Blog blog)
+        public IActionResult Add(BlogViewModel p1, IFormFile Image)
         {
 
-            if (!ModelState.IsValid)
-            {
-                List<Category> liste = _categoryService.GetAll();
-                List<SelectListItem> list = liste.Select(x => new SelectListItem
-                {
-                    Text = x.CategoryName,
-                    Value = x.ID.ToString()
-                }).ToList();
-                BlogViewModel viewModel = new BlogViewModel
-                {
-                    CatSel = list
-                };
-                return View(viewModel);
-            }
+            //if (!ModelState.IsValid)
+            //{
+            //    List<Category> liste = _categoryService.GetAll();
+            //    List<SelectListItem> list = liste.Select(x => new SelectListItem
+            //    {
+            //        Text = x.CategoryName,
+            //        Value = x.ID.ToString()
+            //    }).ToList();
+            //    BlogViewModel viewModel = new BlogViewModel
+            //    {
+            //        CatSel = list
+            //    };
+            //    return View(viewModel);
+            //}
 
             int id = (int)p1.CategoryID;
             Category category= _categoryService.GetById(id);
             string categoryName = category.CategoryName;
-
-            p1.Blog.CreateTime = DateTime.Now.ToLongDateString();
             p1.Blog.CategoryName = categoryName;
+
+            string FileName = Image.FileName;
+            string dateTimeNow = DateTime.Now.Year + "_" + DateTime.Now.Month + "_" + DateTime.Now.Day + "_" + DateTime.Now.Hour + "_" + DateTime.Now.Minute + "_" + DateTime.Now.Second + "_" + DateTime.Now.Millisecond;
+            string NewFileName = p1.Blog.BlogTitle + "_" + dateTimeNow + "_" + Image.FileName;
+            var filePath = "";
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\BlogImages");
+            if (Image.Length > 0)
+            {
+                filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\BlogImages", NewFileName);
+                using (var stream = System.IO.File.Create(filePath))
+                {
+                    Image.CopyToAsync(stream);
+                }
+            }
+
+            p1.Blog.FileName = Image.FileName;
+            p1.Blog.FilePath = path;
+            p1.Blog.NewFileName = NewFileName;
+
             int result = _blogService.Insert(p1.Blog);
-            return result == 0 ? View(p1) : RedirectToAction("Index");
+            return result == 0 ? View(p1) : RedirectToAction("Index","AdminBlog");
         }
 
         public IActionResult Delete(int id)
         {
             Blog detail = _blogService.GetById(id);
-            detail.DeleteTime = DateTime.Now.ToLongDateString();
+            
             int result = _blogService.Delete(detail);
             return RedirectToAction("Index");
         }
@@ -81,7 +98,7 @@ namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
         public IActionResult Update(int id)
         {
             Blog detail = _blogService.GetById(id);
-            detail.UpdateTime = DateTime.Now.ToLongDateString();
+           
             List<Category> liste = _categoryService.GetAll();
             List<SelectListItem> list = liste.Select(x => new SelectListItem
             {
@@ -103,7 +120,6 @@ namespace EsraSevincBlogProject.Web.Areas.Admin.Controllers
             Category category = _categoryService.GetById(id);
             string categoryName = category.CategoryName;
 
-            p1.UpdateTime = DateTime.Now.ToLongDateString();
             p1.CategoryName = categoryName;
             int result = _blogService.Update(p1);
             return result == 0 ? View(p1) : RedirectToAction("Index");
